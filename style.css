@@ -34,14 +34,20 @@ small {
  * Headings
  */
 h1,
-h2,
+h2 {
+  line-height: 1;
+  text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
+  margin-top: 5.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
 h3,
 h4,
 h5,
 h6 {
   line-height: 1;
   text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
-  margin-top: 5.5rem;
+  margin-top: 3.0rem;
   margin-bottom: 1.5rem;
   font-weight: 300;
 }
